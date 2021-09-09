@@ -1,0 +1,358 @@
+
+
+
+color menu: #31446e
+how can I help : #ebebeb
+do you want to move data from one cloud-based service provider to another or do you want to export just your tickets and keep it on-prem
+-------------------------------------------------------FS DESIGN ON BANNER LINKS---------------------
+
+https://assets1.freshservice.com/assets/portal_v2/hero-right-c9436a67e35f1b48ad07c25448a409ee00b51f5423f36b41c7976c08077f61fd.svg
+https://assets3.freshservice.com/assets/portal_v2/hero-left-5105ddc1d07ae971c2e6d2af9e3322bf7580c831743b875cb5e9b01740fd7909.svg
+----------------------------------------------------------NFC-----------------------------------------------------
+
+#home-page-container #hero-banner {
+    height: 384px;
+    background: linear-gradient(
+356.12deg
+, #297339 0%,#297339 100%);
+    margin-top: -76px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#home-page-container #hero-banner .hero-banner-container {
+    box-sizing: border-box;
+    height: 320px;
+    padding: 120px;
+    padding-top: 56px;
+    position: relative;
+    top: 64px;
+     background: url() no-repeat; 
+    background-size: auto;
+    background-position: left bottom; 
+  
+}
+
+#home-page-container #hero-banner .hero-banner-container:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    bottom: 0;
+    background: url() no-repeat; 
+    background-size: auto;
+    background-position: right bottom;
+}
+
+#announcement-banner {
+    bottom: 0;
+    background-color: #3c523b;
+    display: inline-block;
+    margin-top: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+header .portal-logo {
+    max-height: 52px;
+}
+
+header #menu-icon {
+    margin: 0;
+    margin-left: 8px;
+    border: none;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    background: none;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+--------------------------------------------------SAMPLE SCRIPT-----------------------------------------
+
+
+#home-page-container #hero-banner {
+    height: 384px;
+    background: linear-gradient(
+356.12deg
+, #INSERT_HEX_VALUE 0%,#INSERT_HEX_VALUE 100%);
+    margin-top: -76px;
+    box-sizing: border-box;
+    text-align: center;
+	background: url(INSERT URL) repeat-x; 
+    background-size: auto;
+}
+
+#home-page-container #hero-banner .hero-banner-container {
+    box-sizing: border-box;
+    height: 320px;
+    padding: 120px;
+    padding-top: 56px;
+    position: relative;
+    top: 64px;
+     background: url() no-repeat; 
+    background-size: auto;
+    background-position: left bottom; 
+  
+}
+
+#home-page-container #hero-banner .hero-banner-container:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    bottom: 0;
+    background: url() no-repeat; 
+    background-size: auto;
+    background-position: right bottom;
+}
+
+#announcement-banner {
+    bottom: 0;
+    background-color: #INSERT_HEX_VALUE;
+    display: inline-block;
+    margin-top: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+header .portal-logo {
+    max-height: 52px;
+}
+
+header #menu-icon {
+    margin: 0;
+    margin-left: 8px;
+    border: none;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    background: none;
+    border-radius: 50%;
+}
+
+-------------------------------------------------------------------
+
+
+/* HERO BANNER BACKGROUND COLOUR */
+#home-page-container #hero-banner {
+    height: 384px;
+    background: linear-gradient(
+356.12deg
+, #e1eb8f 0%,#e39b43 100%);
+    margin-top: -76px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#home-page-container #hero-banner .hero-banner-container {
+    box-sizing: border-box;
+    height: 320px;
+    padding: 120px;
+    padding-top: 56px;
+    position: relative;
+    top: 64px;
+     background: url() no-repeat; 
+    background-size: auto;
+    background-position: left bottom; 
+  
+}
+
+#home-page-container #hero-banner .hero-banner-container:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    bottom: 0;
+    background: url() no-repeat; 
+    background-size: auto;
+    background-position: right bottom;
+}
+
+#announcement-banner {
+    bottom: 0;
+    background-color: #56450e;
+    display: inline-block;
+    margin-top: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+header .portal-logo {
+    max-height: 52px;
+}
+
+header #menu-icon {
+    margin: 0;
+    margin-left: 8px;
+    border: none;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    background: none;
+    border-radius: 50%;
+}
+
+body[page='portal_home'] header #header-container .portal-name {
+    color: #283da5;
+}
+
+body[page='portal_home'] main {
+    background: #d7dae1;
+    max-width: none;
+    min-height: calc(100vh - 56px);
+}
+
+#home-page-container #home-lists-container {
+    background: #ffffff;
+    width: 100%;
+    padding: 24px 82px;
+    box-sizing: border-box;
+    min-height: 260px;
+}
+
+#home-page-container #hero-banner .hero-banner-container>h2 {
+    font-size: 40px;
+    color: #ebebeb;
+    height: 40px;
+    margin-top: 8px;
+}
+
+#search-form {
+    position: relative;
+    width: 680px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+------------------------------------------------------------MUFC Design-------------------------------
+/* HERO BANNER BACKGROUND COLOUR */
+#home-page-container #hero-banner {
+    height: 384px;
+    background: linear-gradient(
+356.12deg
+, #e1eb8f 0%,#e39b43 100%);
+    margin-top: -76px;
+    box-sizing: border-box;
+    text-align: center;
+   
+    background: url(https://assets.manutd.com/AssetPicker/images/0/0/13/198/902813/GettyImages-12090885201584110660997_large.jpg) no-repeat; 
+    background-size: 100% 100%;
+  
+  	
+  	
+  
+}
+/* To remove left side Image in the hero banner */
+#home-page-container #hero-banner .hero-banner-container {
+    box-sizing: border-box;
+    height: 320px;
+    padding: 120px;
+    padding-top: 56px;
+    position: relative;
+    top: 64px;
+     background: url() no-repeat; 
+    background-size: auto;
+    background-position: left bottom; 
+  
+}
+
+/* To remove right side Image in the hero banner */
+#home-page-container #hero-banner .hero-banner-container:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    bottom: 0;
+    background: url() no-repeat; 
+    background-size: auto;
+    background-position: right bottom;
+}
+
+/* Announcement Banner Alignment and Background colour */
+#announcement-banner {
+    bottom: 0;
+    background-color: #8e3232;
+    display: inline-block;
+    margin-top: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+   margin-bottom: -40px;
+}
+
+/*LOGO*/
+
+header .portal-logo {
+    max-height: 52px;
+}
+
+header #menu-icon {
+    margin: 0;
+    margin-left: 8px;
+    border: none;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    background: none;
+    border-radius: 50%;
+}
+
+/* Portal Name beside Logo */
+
+body[page='portal_home'] header #header-container .portal-name {
+    color: #FFFFFF;
+}
+
+/* raise,request,solution base section Background colour*/
+body[page='portal_home'] main {
+    background: #f5f3f3;
+    max-width: none;
+    min-height: calc(100vh - 56px);
+}
+
+/*open ticketsand onboarding request section background color */
+#home-page-container #home-lists-container {
+    background: #ffffff;
+    width: 100%;
+    padding: 24px 82px;
+    box-sizing: border-box;
+    min-height: 260px;
+}
+
+/* How can we Help you Edit */
+#home-page-container #hero-banner .hero-banner-container>h2 {
+    font-size: 40px;
+    color: #ebebeb;
+    height: 40px;
+    margin-top: 58px;
+}
+
+/*Search Form on Hero Banner */
+#search-form {
+    position: relative;
+    width: 480px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Announcement Banner Border */
+.announcement-banner-container {
+    display: block;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #1f3e20;
+}
